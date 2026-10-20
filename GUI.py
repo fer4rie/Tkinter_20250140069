@@ -32,3 +32,7 @@ fg_color = "white"
 # label judul
 label_judul = tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan", font=font_judul, bg=bg_color, fg=fg_color)
 label_judul.pack(pady=20)
+
+# Frame input
+frame_input = tk.Frame(root, bg=bg_color)
+frame_input.pack()
