@@ -60,3 +60,5 @@ combo_jurusan.grid(row=11, column=1, padx=10, pady=(15, 5), sticky="w")
 # button 
 btn_prediksi = tk.Button(root, text="Hasil Prediksi", font=("Arial", 10, "bold"), width=15, command=label_luar)
 btn_prediksi.pack(pady=30)
+
+root.mainloop() 
