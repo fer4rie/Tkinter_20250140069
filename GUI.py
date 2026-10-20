@@ -17,3 +17,8 @@ def label_luar(): #label luar untuk display hasil
         fg="#00e5ff" # Warna cyan terang
     )
     label_hasil.pack(expand=True)
+
+root = tk.Tk()
+root.title("Aplikasi Prediksi Prodi Pilihan")
+root.geometry("480x620")
+root.configure(bg="#1a2035") 
