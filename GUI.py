@@ -48,3 +48,11 @@ for i in range(1, 11):
     ent_matpel = tk.Entry(frame_input, width=25)
     ent_matpel.grid(row=i, column=1, padx=10, pady=6)
     entries.append(ent_matpel)
+
+# Tambahan pilihan jurusan 
+lbl_jurusan = tk.Label(frame_input, text="Pilihan Jurusan Anda:", font=font_label, bg=bg_color, fg=fg_color)
+lbl_jurusan.grid(row=11, column=0, sticky="e", padx=10, pady=(15, 5))
+
+combo_jurusan = ttk.Combobox(frame_input, values=["Teknologi Informasi"], width=22)
+combo_jurusan.set("Teknologi Informasi")
+combo_jurusan.grid(row=11, column=1, padx=10, pady=(15, 5), sticky="w")
