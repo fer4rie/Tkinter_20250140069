@@ -22,3 +22,9 @@ root = tk.Tk()
 root.title("Aplikasi Prediksi Prodi Pilihan")
 root.geometry("480x620")
 root.configure(bg="#1a2035") 
+
+# desain font & tampilannya
+font_judul = ("Arial", 14, "bold")
+font_label = ("Arial", 10)
+bg_color = "#1a2035"
+fg_color = "white"
