@@ -56,3 +56,7 @@ lbl_jurusan.grid(row=11, column=0, sticky="e", padx=10, pady=(15, 5))
 combo_jurusan = ttk.Combobox(frame_input, values=["Teknologi Informasi"], width=22)
 combo_jurusan.set("Teknologi Informasi")
 combo_jurusan.grid(row=11, column=1, padx=10, pady=(15, 5), sticky="w")
+
+# button 
+btn_prediksi = tk.Button(root, text="Hasil Prediksi", font=("Arial", 10, "bold"), width=15, command=label_luar)
+btn_prediksi.pack(pady=30)
