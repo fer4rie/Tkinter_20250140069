@@ -28,3 +28,7 @@ font_judul = ("Arial", 14, "bold")
 font_label = ("Arial", 10)
 bg_color = "#1a2035"
 fg_color = "white"
+
+# label judul
+label_judul = tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan", font=font_judul, bg=bg_color, fg=fg_color)
+label_judul.pack(pady=20)
