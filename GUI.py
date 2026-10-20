@@ -36,3 +36,15 @@ label_judul.pack(pady=20)
 # Frame input
 frame_input = tk.Frame(root, bg=bg_color)
 frame_input.pack()
+
+# input nilai 
+entries = []
+for i in range(1, 11):
+    # Teks label
+    lbl_matpel = tk.Label(frame_input, text=f"Nilai Mata Pelajaran {i} :", font=font_label, bg=bg_color, fg=fg_color)
+    lbl_matpel.grid(row=i, column=0, sticky="e", padx=10, pady=6)
+    
+    # Kotak input
+    ent_matpel = tk.Entry(frame_input, width=25)
+    ent_matpel.grid(row=i, column=1, padx=10, pady=6)
+    entries.append(ent_matpel)
